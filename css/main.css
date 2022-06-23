@@ -1,0 +1,157 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto", "Arial", sans-serif;
+  /* width: 1440px; */
+  /* color: black; */
+
+}
+
+.container {
+  max-width: 1130px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sec-header{
+  padding-bottom: 20px;
+  background-color:  #fff;
+  padding-top: -40px;
+  /* margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px; */
+
+}
+
+.first-div-header{
+  width: 1130px;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  padding-top:25px ;
+  width: 227px;
+  height: 59.18px;
+
+}
+
+.logo-akadem{
+  width: 227px;
+  height: 59.18px;
+}
+
+
+.ul-list{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  margin-right: 290px;
+}
+
+.list-items{
+  padding-left: 32px;
+
+}
+
+.link-itmes{
+  color: black;
+  text-decoration: none;
+
+}
+
+.link-itmes:hover{
+  color: #ff7500;
+  border-bottom: 3px solid #ff7500;
+
+}
+
+.header-link{
+  font-family:"Roboto", "Arial", sans-serif ;
+  margin-top: 60px;
+  padding: 0;
+  color: #fff;
+  background-color: #ff7500;
+  text-decoration: none;
+  border: solid 1px #ff7500;
+  border-radius: 4px;
+  padding: 15px ;
+}
+
+.header-link:hover{
+  color: #fff;
+  background-color: #ff9133;
+}
+
+
+/* Section hero */
+
+.section-one{
+  background-color: #252420;
+  /* width: 1130px; */
+  height: 488px;
+  padding-top: 50px;
+}
+
+.hero-page{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.hero-texts-img{
+  width: 387px;
+  height: 388px;
+  color: #fff;
+  padding-bottom: 40px;
+
+}
+
+
+
+.hero-h3{
+
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+
+.hero-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.hero-link{
+  margin-top: 10px;
+  text-decoration: none;
+  width: 152px;
+  height: 39px;
+  left: 0px;
+  top: 291px;
+  background-color: #FF7500;
+  color: #fff;
+  opacity: 0.8;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.hero-link:hover{
+  color: #fff;
+  background-color: #ff9133;
+}
